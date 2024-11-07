@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Got Hack - Download "Diborane.exe"</title>
+  <link rel="stylesheet" href="styles/styles.css">s
+  <script>
+    function toggleButton() {
+      const checkbox = document.getElementById("agree");
+      const downloadButton = document.getElementById("download-btn");
+      downloadButton.disabled = !checkbox.checked;
+    }
+  </script>
+</head>
+<body>
+  <header class="header">
+    <h1>Download "Diborane.exe"</h1>
+    <p>Download a malware called "Diborane.exe"</p>
+  </header>
+  <div class="container">
+
+    <aside class="sidebar">
+        <nav>
+          <ul>
+              <h1>Shortcuts</h1>
+              <li><a href="index">Main Page</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+    <main class="content">
+      <section class="section">
+        <h2>Download "Diborane.exe"</h2>
+        <p1>We are not responsible for any damage caused to your Windows device, we always recommend you to use the malware you downloaded in a Virtual Machine as it may damage your computer forever.</p1>
+        <p>Please read and accept the terms and conditions before downloading the file.</p>
+        <label>
+          <input type="checkbox" id="agree" onclick="toggleButton()">
+          I understand how dangerous this file is.
+        </label>
+        <div style="margin-top: 1rem;">
+          <a href="downloads/Diborane.exe" download>
+            <button id="download-btn" disabled>Download File</button>
+          </a>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
